@@ -1,3 +1,4 @@
+use cobis
 ---------consulta menu
 --select * from cew_menu where me_name = 'MNU_CMAM_TEST';
 
@@ -16,9 +17,9 @@ declare @v_id_menu 		int,
 		
 -------------MENU--------------
 -----------Nombre-----------		
-select @v_name_menu = 'MNU_CMAM_TEST'
+select @v_name_menu = 'MNU_GRUPOD'
 ----------Descripcion----------
-select @v_description = 'menu test' 
+select @v_description = 'menu grupo d' 
 --------------------------------
 
 ---------- Rol del menu--------
