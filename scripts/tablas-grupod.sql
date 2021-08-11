@@ -13,6 +13,8 @@ create table grupod_cliente(
 	cl_nombre				varchar(50)     not null,
 	cl_apellido 		    varchar(50) 	null,
 	cl_estado		        char(1) 	    not null,
+	cl_telefono             varchar(50)     not null,
+	cl_direccion            varchar(10)     not null, 
 	cl_fecha_crea			date			not null
 )
 
