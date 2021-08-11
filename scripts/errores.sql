@@ -70,11 +70,15 @@ begin
 	delete from cl_errores where mensaje = 'ERROR: El nombre no puede ser vacio - Grupo D'
 end
 
+if exists(select 1 from cl_errores where mensaje = 'ERROR: El nombre no puede ser vacio - Grupo D')
+begin
+	delete from cl_errores where mensaje = 'ERROR: El nombre no puede ser vacio - Grupo D'
+end
+
 if exists(select 1 from cl_errores where mensaje = 'ERROR: El precio no puede ser vacio - Grupo D')
 begin
 	delete from cl_errores where mensaje = 'ERROR: El precio no puede ser vacio - Grupo D'
 end
-
 /******************** Error codigo repetido ********************/
 insert into dbo.cl_errores (numero, severidad, mensaje)
 values (1720829, 1, 'ERROR: El codigo ya existe - Grupo D')
@@ -83,8 +87,12 @@ values (1720829, 1, 'ERROR: El codigo ya existe - Grupo D')
 insert into dbo.cl_errores (numero, severidad, mensaje)
 values (1720830, 1, 'ERROR: El codigo no puede ser vacio - Grupo D')
 
+/******************** Error nombre vacio ********************/
+insert into dbo.cl_errores (numero, severidad, mensaje)
+values (1720831, 1, 'ERROR: El nombre no puede ser vacio - Grupo D')
+
 /******************** Error precio vacio ********************/
 insert into dbo.cl_errores (numero, severidad, mensaje)
-values (1720831, 1, 'ERROR: El precio no puede ser vacio - Grupo D')
+values (1720832, 1, 'ERROR: El precio no puede ser vacio - Grupo D')
 
 select * from cl_errores where numero between 1720000 and 1730000 order by numero desc
