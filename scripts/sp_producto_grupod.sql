@@ -131,4 +131,8 @@ return @w_error
 
 go
 
+<<<<<<< HEAD
 //select * from grupod_producto order by pr_id desc
+=======
+select * from grupod_producto order by pr_id desc
+>>>>>>> bffcff44208a845fc432936df351f2ef728fbd3d
