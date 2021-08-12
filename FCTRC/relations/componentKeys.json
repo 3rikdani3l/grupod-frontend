@@ -1,4 +1,18 @@
 {
+	"CLNTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FCTRCUAJUNGIC_924": {
+				"name": "FormClientes"
+			}
+		},
+		"Queries": {
+			"Q_CLIEETTN_GA59": {
+				"name": "ClienteQuery"
+			}
+		}
+	},
 	"Entities": {
 		"EN_CLIENTEOD_167": {
 			"name": "Cliente"

@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEETTN_GA59",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/CLNTS/queries/Q_CLIEETTN_GA59.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	}
+]

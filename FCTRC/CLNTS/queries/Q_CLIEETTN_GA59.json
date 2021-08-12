@@ -1,0 +1,181 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEETTN_GA59_182",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEETTN_GA59",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEOD_167",
+	"mainEntityModule": "FCTRC",
+	"mainEntityName": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/Entities/EN_CLIENTEOD_167/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/CLNTS/Queries/Q_CLIEETTN_GA59/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "direccion",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT72_DIRECCOI167"
+			},
+			"attributeQuery": "direccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE5GTG5185_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT39_CEDULAFS167"
+			},
+			"attributeQuery": "cedula",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE5T5TG881_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT37_CODIGOZE167"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE5TA5T757_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT29_APELLIOD167"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEAANAT453_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT93_TELEFOON167"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEATTTT441_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTEOD_167.json#/attributes/AT93_NOMBREYM167"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEGA5T9635_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "CLNTS"
+			}
+		}
+	]
+}

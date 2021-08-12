@@ -8,7 +8,43 @@
 		}
 	},
 	"Forms": {
+		"T_FCTRCUAJUNGIC_924": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEOD_167": [
+					"AT29_APELLIOD167",
+					"AT39_CEDULAFS167",
+					"AT72_DIRECCOI167",
+					"AT93_NOMBREYM167",
+					"AT93_TELEFOON167"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIEETTN_GA59": [
+					"QM_CLIEE5GTG5185_06",
+					"QM_CLIEE5T5TG881_02",
+					"QM_CLIEEAANAT453_04",
+					"QM_CLIEEATTTT441_05",
+					"QM_CLIEEGA5T9635_03"
+				]
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
+		"Q_CLIEETTN_GA59": {
+			"labels": [
+			]
+		}
 	}
 }

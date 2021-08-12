@@ -1,3 +1,4 @@
+use cobis
 ---------consulta menu
 -- select * from cew_menu where me_name = 'MNU_CMAM_TESTSub';
 
@@ -13,19 +14,19 @@ DECLARE @v_id_menu 		INT,
 		@v_name_menu 	Varchar(100)
 
 ----------------------URL del Formulario----------------------
-select @v_url = 'views/FCTRC/FCTRS/T_FCTRCBLSVQVRX_373/1.0.0/VC_LISTCLIETE_548373_TASK.html'
+select @v_url = 'views/FCTRC/CLNTS/T_FCTRCUAJUNGIC_924/1.0.0/VC_CLIENTESQX_595924_TASK.html'
 select * from cew_menu where me_url = @v_url
 ---------------------------------------------------------------
 
 ----------------------Nombre del menu principal-----------------------	
-select @v_id_padre = me_id from cew_menu where me_name = 'MNU_CMAM_TEST'
+select @v_id_padre = me_id from cew_menu where me_name = 'MNU_GRUPOD'
 ----------------------------------------------------------------------
 
 -------------MENU--------------
 -----------Nombre-----------		
-select @v_name_menu = 'MNU_CMAM_TESTSub'
+select @v_name_menu = 'MNU_LCLT'
 ----------Descripcion----------
-select @v_description = 'menu test' 
+select @v_description = 'Lista Clientes' 
 --------------------------------
 
 

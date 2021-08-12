@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEOD_167": {
+		"queries": {
+			"Q_CLIEETTN_GA59": {
+				"$ref": "../CLNTS/queries/Q_CLIEETTN_GA59.json#"
+			}
+		}
+	}
+}
