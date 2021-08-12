@@ -136,6 +136,7 @@ end
 if @i_operacion = 'S'
 begin 
 	select
+		'cedula'          = cl_cedula,
 		'nombre'          = cl_nombre,
 		'apellido'        = cl_apellido,
 		'telefono'        = cl_telefono,
