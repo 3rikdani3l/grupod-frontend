@@ -1,0 +1,72 @@
+{
+	"FCTRC": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEOD_167",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2852_bli_crearcliente",
+			"nameBli": "BLI_CrearCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEOD_167",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3200_bli_actualizarcliente",
+			"nameBli": "BLI_ActualizarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEOD_167",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5567_bli_eliminarcliente",
+			"nameBli": "BLI_EliminarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEOD_167",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9307_bli_listarclientes",
+			"nameBli": "BLI_ListarClientes"
+		}
+	]
+}

@@ -1,0 +1,110 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "70707285"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		}
+	],
+	"name": "BLI_ListarClientes",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9307_bli_listarclientes",
+	"patternName": "BLI_ListarClientes",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "ce8b21fb-fefa-4b04-b006-1278e153818b",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select\r\n\t\t\u0027nombre\u0027          = cl_nombre,\r\n\t\t\u0027apellido\u0027        = cl_apellido,\r\n\t\t\u0027telefono\u0027        = cl_telefono,\r\n\t\t\u0027direccion\u0027       = cl_direccion\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "ce8b21fb-fefa-4b04-b006-1278e153818b",
+			"columns": [
+				{
+					"attributeId": "AT39_CEDULAFS167",
+					"entityId": "EN_CLIENTEOD_167",
+					"format": "",
+					"name": "cedula",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT93_NOMBREYM167",
+					"entityId": "EN_CLIENTEOD_167",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT29_APELLIOD167",
+					"entityId": "EN_CLIENTEOD_167",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT93_TELEFOON167",
+					"entityId": "EN_CLIENTEOD_167",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT72_DIRECCOI167",
+					"entityId": "EN_CLIENTEOD_167",
+					"format": "",
+					"name": "direccion",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEOD_167",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_grupod_cliente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

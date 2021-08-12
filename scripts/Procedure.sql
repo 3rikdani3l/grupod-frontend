@@ -18,12 +18,18 @@ select * from ad_tr_autorizada where ta_transaccion =70707257
 
 
 ----------------------Consulta basica----------------------
-select * from ad_procedure WHERE pd_stored_procedure = 'sp_cli_gd'
+select * from ad_procedure WHERE pd_stored_procedure = 'sp_grupod_cliente'
 select * from ad_pro_transaccion where pt_procedure = 172539
-select * from ad_tr_autorizada where ta_transaccion =173001
+select * from ad_tr_autorizada where ta_transaccion =70707285
 
 ----172472
 */
+
+update ad_procedure 
+	set 
+		pd_stored_procedure = 'sp_grupod_cliente'
+	where 
+		pd_procedure        = 172539
 
 use cobis
 
