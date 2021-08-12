@@ -1,0 +1,118 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "70707286"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		}
+	],
+	"name": "BLI_Get_Productos",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1852_bli_get_productos",
+	"patternName": "BLI_Get_Productos",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "7734ba56-29e6-4b71-82ec-7312c08dd6c4",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\t\u0027s_id\u0027\t\t\t\t=pr_id,\r\n\t\t\u0027codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\u0027nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\u0027precio\u0027\t\t\t=pr_precio,\r\n\t\t\u0027estado\u0027 \t\t\t=pr_estado,\r\n\t\t\u0027fechaCreacion\u0027\t\t=pr_fecha_crea\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "7734ba56-29e6-4b71-82ec-7312c08dd6c4",
+			"columns": [
+				{
+					"attributeId": "AT68_IDPRODTU408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "",
+					"name": "s_id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT45_CODIGODB408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "",
+					"name": "codigo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT58_NOMBREMG408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "",
+					"name": "nombre",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT14_PRECIOHB408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "",
+					"name": "precio",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT82_ESTADOYK408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "",
+					"name": "estado",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT82_FECHACER408",
+					"entityId": "EN_PRODUCTOO_408",
+					"format": "yyyy/MM/dd",
+					"name": "fechaCreacion",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_408",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "Producto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_grupod_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

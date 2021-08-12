@@ -3,6 +3,12 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_FCTRCIMBXAZFA_448": {
+				"name": "FormProductos"
+			},
+			"T_FCTRCOESSONMH_633": {
+				"name": "FormProducto"
+			},
 			"T_FCTRCUAJUNGIC_924": {
 				"name": "FormClientes"
 			}
@@ -10,12 +16,18 @@
 		"Queries": {
 			"Q_CLIEETTN_GA59": {
 				"name": "ClienteQuery"
+			},
+			"Q_PRODCOOU_UG38": {
+				"name": "ProductoQuery"
 			}
 		}
 	},
 	"Entities": {
 		"EN_CLIENTEOD_167": {
 			"name": "Cliente"
+		},
+		"EN_PRODUCTOO_408": {
+			"name": "Producto"
 		}
 	}
 }

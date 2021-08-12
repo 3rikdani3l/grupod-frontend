@@ -1,0 +1,50 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODCOOU_UG38",
+		"controlName": "ProductoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/CLNTS/queries/Q_PRODCOOU_UG38.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_QS38_YVG93",
+		"controlName": "QV_QS38_YVG93",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_PRODUCTOSS_364448",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 3
+			},
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

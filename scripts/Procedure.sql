@@ -18,9 +18,14 @@ select * from ad_tr_autorizada where ta_transaccion =70707257
 
 
 ----------------------Consulta basica----------------------
-select * from ad_procedure WHERE pd_stored_procedure = 'sp_sem_cliente'
-select * from ad_pro_transaccion where pt_procedure = 172475
-select * from ad_tr_autorizada where ta_transaccion =173001
+select * from ad_procedure WHERE pd_stored_procedure = 'sp_grupod_cliente'
+select * from ad_pro_transaccion where pt_procedure = 172540
+select * from ad_tr_autorizada where ta_transaccion =70707285
+
+----------------------Consulta basica----------------------
+select * from ad_procedure WHERE pd_stored_procedure = 'sp_grupod_producto'
+select * from ad_pro_transaccion where pt_procedure = 172540
+select * from ad_tr_autorizada where ta_transaccion =70707286
 
 ----172472
 */
@@ -40,11 +45,11 @@ declare
 	@v_name_db		varchar(30)
 	
 -------------Nombre------------------------
-select @v_name_ps ='prueba_prod_CMAM' 
+select @v_name_ps ='sp_grupod_producto' 
 -------------------------------------------
 
 -------------Nombre del archivo-------------
-select @v_name_ps_f ='ps_prod_CM.sp'
+select @v_name_ps_f ='gd_producto.sp'
 -------------------------------------------
 
 -------------Abreviatura del producto-------

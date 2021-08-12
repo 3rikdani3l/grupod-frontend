@@ -1,0 +1,55 @@
+{
+	"FCTRC": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_408",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1148_bli_delete_producto",
+			"nameBli": "BLI_Delete_Producto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_408",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1852_bli_get_productos",
+			"nameBli": "BLI_Get_Productos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_408",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9222_bli_producto",
+			"nameBli": "BLI_Producto"
+		}
+	]
+}

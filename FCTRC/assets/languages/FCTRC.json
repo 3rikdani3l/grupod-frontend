@@ -1,10 +1,15 @@
 {
-    "FCTRC": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FCTRC": {
+		"LBL": {
+			"LBL_FCTRC_ACEPTARVS_62045": "Aceptar",
+			"LBL_FCTRC_CODIGOBZU_14011": "Codigo",
+			"LBL_FCTRC_CODIGOFUQ_21728": "CODIGO",
+			"LBL_FCTRC_IDRELDRKT_69468": "ID",
+			"LBL_FCTRC_NOMBREUFF_23058": "Nombre",
+			"LBL_FCTRC_PRECIOMMR_15422": "Precio",
+			"LBL_FCTRC_PRODUCTOO_85246": "Producto"
+		},
+		"MSG": {
+		}
+	}
 }

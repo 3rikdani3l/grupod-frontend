@@ -5,9 +5,73 @@
 		"EN_CLIENTEOD_167": {
 			"labels": [
 			]
+		},
+		"EN_PRODUCTOO_408": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
+		"T_FCTRCIMBXAZFA_448": {
+			"blis": [
+				"BLI1148_bli_delete_producto"
+			],
+			"entities": {
+				"EN_PRODUCTOO_408": [
+					"AT14_PRECIOHB408",
+					"AT45_CODIGODB408",
+					"AT58_NOMBREMG408",
+					"AT68_IDPRODTU408",
+					"AT82_FECHACER408"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODCOOU_UG38": [
+					"QM_PRODC88GOG826_03",
+					"QM_PRODC8GGGG791_04",
+					"QM_PRODC8U883898_02",
+					"QM_PRODCOOO3U688_06",
+					"QM_PRODCOOOUU945_01"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_FCTRCOESSONMH_633": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_408": [
+					"AT14_PRECIOHB408",
+					"AT45_CODIGODB408",
+					"AT58_NOMBREMG408"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_ACEPTARVS_62045",
+				"LBL_FCTRC_CODIGOBZU_14011",
+				"LBL_FCTRC_NOMBREUFF_23058",
+				"LBL_FCTRC_PRECIOMMR_15422"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_FCTRCUAJUNGIC_924": {
 			"blis": [
 			],
@@ -43,6 +107,10 @@
 	},
 	"Queries": {
 		"Q_CLIEETTN_GA59": {
+			"labels": [
+			]
+		},
+		"Q_PRODCOOU_UG38": {
 			"labels": [
 			]
 		}
