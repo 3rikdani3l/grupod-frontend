@@ -1,6 +1,6 @@
 use cobis
 ---------consulta menu
--- select * from cew_menu where me_name = 'MNU_CMAM_TESTSub';
+-- select * from cew_menu where me_name = 'MNU_LCLT';
 
 ---------consulta permisos
 -- select * from cew_menu_role where mro_id_menu = 7989;
@@ -14,8 +14,15 @@ DECLARE @v_id_menu 		INT,
 		@v_name_menu 	Varchar(100)
 
 ----------------------URL del Formulario----------------------
-select @v_url = 'views/FCTRC/CLNTS/T_FCTRCUAJUNGIC_924/1.0.0/VC_CLIENTESQX_595924_TASK.html'
+select @v_url = 'views/FCTRC/CLNTS/T_FCTRCUAJUNGIC_924/1.0.0/VC_CLIENTESQX_595924_TASK.html?mode=2'
 select * from cew_menu where me_url = @v_url
+
+update cew_menu 
+	set 
+		me_url   	      = 'views/FCTRC/CLNTS/T_FCTRCUAJUNGIC_924/1.0.0/VC_CLIENTESQX_595924_TASK.html?mode=2'
+	where 
+		me_id             = 7996
+
 ---------------------------------------------------------------
 
 ----------------------Nombre del menu principal-----------------------	
