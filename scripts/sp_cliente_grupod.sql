@@ -133,6 +133,19 @@ begin
 		cl_cedula         = @i_cedula	
 end
 
+if @i_operacion = 'S'
+begin 
+	select
+		'nombre'          = cl_nombre,
+		'apellido'        = cl_apellido,
+		'telefono'        = cl_telefono,
+		'direccion'       = cl_direccion 
+	from
+		grupod_cliente
+	where 
+		cl_estado         = 'V'
+end
+
 if @i_operacion = 'E'
 begin 
 	if @i_cedula is null
