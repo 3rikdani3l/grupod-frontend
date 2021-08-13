@@ -5,6 +5,10 @@
 		"EN_CLIENTEOD_167": {
 			"labels": [
 			]
+		},
+		"EN_PRODUCTOO_821": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
@@ -39,10 +43,42 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCZDBLCVJS_903": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_821": [
+					"AT14_PRECIOLR821",
+					"AT33_NOMBREQV821",
+					"AT51_CODIGOSA821"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODCTTO_RO60": [
+					"QM_PRODC0OOR6203_01",
+					"QM_PRODCR0OT6796_03",
+					"QM_PRODCTR06R111_02"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
 		"Q_CLIEETTN_GA59": {
+			"labels": [
+			]
+		},
+		"Q_PRODCTTO_RO60": {
 			"labels": [
 			]
 		}

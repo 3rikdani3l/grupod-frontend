@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CLIENTEOD_167",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "Cliente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "70707285"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "E"
+		},
+		{
+			"attributeId": "AT39_CEDULAFS167",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTEOD_167",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_EliminarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5567_bli_eliminarcliente",
+	"patternName": "BLI_EliminarCliente",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_grupod_cliente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

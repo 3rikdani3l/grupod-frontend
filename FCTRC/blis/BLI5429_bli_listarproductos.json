@@ -1,0 +1,94 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "70707286"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		}
+	],
+	"name": "BLI_ListarProductos",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5429_bli_listarproductos",
+	"patternName": "BLI_ListarProductos",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "26a84d97-ba6a-4b68-8cf2-5f24411ad49c",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\t\u0027s_id\u0027\t\t\t\t=pr_id,\r\n\t\t\u0027codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\u0027nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\u0027precio\u0027\t\t\t=pr_precio,\r\n\t\t\u0027estado\u0027 \t\t\t=pr_estado,\r\n\t\t\u0027fechaCreacion\u0027\t\t=convert(varchar(10),pr_fecha_crea,111)\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "26a84d97-ba6a-4b68-8cf2-5f24411ad49c",
+			"columns": [
+				{
+					"attributeId": "AT51_CODIGOSA821",
+					"entityId": "EN_PRODUCTOO_821",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT33_NOMBREQV821",
+					"entityId": "EN_PRODUCTOO_821",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT14_PRECIOLR821",
+					"entityId": "EN_PRODUCTOO_821",
+					"format": "",
+					"name": "precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_821",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "Producto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_grupod_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

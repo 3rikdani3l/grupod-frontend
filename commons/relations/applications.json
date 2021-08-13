@@ -5,11 +5,19 @@
 		"forms": {
 			"FCTRC": [
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
 					"name": "FormClientes",
 					"subModuleId": "CLNTS",
 					"taskId": "T_FCTRCUAJUNGIC_924",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "FCTRC",
+					"name": "FormProductos",
+					"subModuleId": "CLNTS",
+					"taskId": "T_FCTRCZDBLCVJS_903",
 					"type": "Simple form"
 				}
 			]
