@@ -9,10 +9,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI2578_bli_crearproducto",
 			"nameBli": "BLI_CrearProducto"
@@ -26,10 +24,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI2852_bli_crearcliente",
 			"nameBli": "BLI_CrearCliente"
@@ -43,10 +39,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI3000_bli_eliminarproducto",
 			"nameBli": "BLI_EliminarProducto"
@@ -60,20 +54,16 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI3200_bli_actualizarcliente",
 			"nameBli": "BLI_ActualizarCliente"
 		},
 		{
 			"entities": {
-				"inputEntity": [
-				],
-				"outputEntity": [
-				],
+				"inputEntity": [],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_PRODUCTOO_821",
@@ -94,10 +84,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI5567_bli_eliminarcliente",
 			"nameBli": "BLI_EliminarCliente"
@@ -111,20 +99,16 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI8917_bli_actualizarproducto",
 			"nameBli": "BLI_ActualizarProducto"
 		},
 		{
 			"entities": {
-				"inputEntity": [
-				],
-				"outputEntity": [
-				],
+				"inputEntity": [],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_CLIENTEOD_167",

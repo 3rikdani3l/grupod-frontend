@@ -34,6 +34,17 @@ update ad_procedure
 		pd_archivo = 'sp_pro_gd.sp'
 	where 
 		pd_procedure        = 172540
+select * from ad_pro_transaccion where pt_procedure = 172539
+select * from ad_tr_autorizada where ta_transaccion =70707285
+
+----172472
+*/
+
+update ad_procedure 
+	set 
+		pd_stored_procedure = 'sp_grupod_cliente'
+	where 
+		pd_procedure        = 172539
 
 use cobis
 
