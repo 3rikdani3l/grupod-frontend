@@ -1,0 +1,6 @@
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowdeleting\ClienteQuery_QV_ZC59_BRX60.class
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowdeleting\ProductoQuery_QV_RA41_SVS85.class
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowinserting\ClienteQuery_QV_ZC59_BRX60.class
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowupdating\ProductoQuery_QV_RA41_SVS85.class
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowinserting\ProductoQuery_QV_RA41_SVS85.class
+com\cobiscorp\cobis\fctrc\customevents\impl\queryview\rowupdating\ClienteQuery_QV_ZC59_BRX60.class

@@ -5,17 +5,26 @@
 		"Forms": {
 			"T_FCTRCUAJUNGIC_924": {
 				"name": "FormClientes"
+			},
+			"T_FCTRCZDBLCVJS_903": {
+				"name": "FormProductos"
 			}
 		},
 		"Queries": {
 			"Q_CLIEETTN_GA59": {
 				"name": "ClienteQuery"
+			},
+			"Q_PRODCTTO_RO60": {
+				"name": "ProductoQuery"
 			}
 		}
 	},
 	"Entities": {
 		"EN_CLIENTEOD_167": {
 			"name": "Cliente"
+		},
+		"EN_PRODUCTOO_821": {
+			"name": "Producto"
 		}
 	}
 }

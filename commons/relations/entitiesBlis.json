@@ -4,15 +4,28 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_PRODUCTOO_821",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [],
+				"returnEntity": []
+			},
+			"idBli": "BLI2578_bli_crearproducto",
+			"nameBli": "BLI_CrearProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_CLIENTEOD_167",
 						"moduleId": "FCTRC",
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI2852_bli_crearcliente",
 			"nameBli": "BLI_CrearCliente"
@@ -21,18 +34,16 @@
 			"entities": {
 				"inputEntity": [
 					{
-						"entityId": "EN_CLIENTEOD_167",
+						"entityId": "EN_PRODUCTOO_821",
 						"moduleId": "FCTRC",
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
-			"idBli": "BLI3200_bli_actualizarcliente",
-			"nameBli": "BLI_ActualizarCliente"
+			"idBli": "BLI3000_bli_eliminarproducto",
+			"nameBli": "BLI_EliminarProducto"
 		},
 		{
 			"entities": {
@@ -43,10 +54,38 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
+				"outputEntity": [],
+				"returnEntity": []
+			},
+			"idBli": "BLI3200_bli_actualizarcliente",
+			"nameBli": "BLI_ActualizarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [],
+				"outputEntity": [],
 				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_821",
+						"moduleId": "FCTRC",
+						"related": false
+					}
 				]
+			},
+			"idBli": "BLI5429_bli_listarproductos",
+			"nameBli": "BLI_ListarProductos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEOD_167",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI5567_bli_eliminarcliente",
 			"nameBli": "BLI_EliminarCliente"
@@ -54,9 +93,22 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_821",
+						"moduleId": "FCTRC",
+						"related": false
+					}
 				],
-				"outputEntity": [
-				],
+				"outputEntity": [],
+				"returnEntity": []
+			},
+			"idBli": "BLI8917_bli_actualizarproducto",
+			"nameBli": "BLI_ActualizarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_CLIENTEOD_167",

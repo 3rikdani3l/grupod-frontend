@@ -1,6 +1,7 @@
 use cobis
 ---------consulta menu
 -- select * from cew_menu where me_name = 'MNU_LCLT';
+-- select * from cew_menu where me_name = 'MNU_PRODFORM';
 
 ---------consulta permisos
 -- select * from cew_menu_role where mro_id_menu = 7989;
@@ -19,9 +20,9 @@ select * from cew_menu where me_url = @v_url
 
 update cew_menu 
 	set 
-		me_url   	      = 'views/FCTRC/CLNTS/T_FCTRCUAJUNGIC_924/1.0.0/VC_CLIENTESQX_595924_TASK.html?mode=2'
+		me_url   	      = 'views/FCTRC/CLNTS/T_FCTRCZDBLCVJS_903/1.0.0/VC_PRODUCTOSS_334903_TASK.html?mode=2'
 	where 
-		me_id             = 7996
+		me_id             = 8000
 
 ---------------------------------------------------------------
 

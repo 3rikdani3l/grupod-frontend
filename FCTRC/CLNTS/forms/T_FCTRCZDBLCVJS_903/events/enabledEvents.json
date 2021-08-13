@@ -1,0 +1,40 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODCTTO_RO60",
+		"controlName": "ProductoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/CLNTS/queries/Q_PRODCTTO_RO60.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_UG60_KCB77",
+		"controlName": "QV_UG60_KCB77",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowInserting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowUpdating",
+				"executionType": 3
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryViewEventType"
+	}
+]

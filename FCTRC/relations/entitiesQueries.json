@@ -5,5 +5,12 @@
 				"$ref": "../CLNTS/queries/Q_CLIEETTN_GA59.json#"
 			}
 		}
+	},
+	"EN_PRODUCTOO_821": {
+		"queries": {
+			"Q_PRODCTTO_RO60": {
+				"$ref": "../CLNTS/queries/Q_PRODCTTO_RO60.json#"
+			}
+		}
 	}
 }

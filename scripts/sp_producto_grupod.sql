@@ -1,6 +1,5 @@
 use cobis
 go
-
 IF OBJECT_ID ('dbo.sp_grupod_producto') IS NOT NULL
 	DROP PROCEDURE dbo.sp_grupod_producto
 GO
@@ -31,7 +30,9 @@ declare
    @w_sp_name		varchar(30)
    
 select @w_sp_name = 'sp_grupod_producto'
--- Insertar producto --
+
+
+-------------------------Insertar producto ---------------------------
 if @i_operacion = 'I'
 begin
 	if @i_codigo is null
@@ -73,7 +74,11 @@ begin
 		 
 	select @o_codigo = @w_codigo_pro
 end
--- Actualizar producto -- 
+-----------------------------------------------------------------------------
+
+
+
+--------------------------- Actualizar producto --------------------------- 
 if @i_operacion = 'U'
 begin
 	if @i_codigo is null
@@ -102,7 +107,11 @@ begin
 	where 
 		pr_codigo         = @i_codigo	
 end
+------------------------------------------------------------------------------------------
 
+
+
+-------------------Borrar Registro--------------------------------------------------------
 if @i_operacion = 'E'
 begin 
 	if @i_codigo is null
@@ -117,6 +126,53 @@ begin
 	where 
 		pr_codigo         = @i_codigo
 end
+----------------------------------------------------------------------------------------------------
+
+
+---------------------------Buscar------------------------------------------------------------
+if @i_operacion = 'Q'
+begin
+
+	if @i_codigo is null
+    begin
+      select @w_error =  1720806 
+      goto ERROR_FIN
+	end
+	
+	if not exists (select 1 from grupod_producto where pr_codigo = @i_codigo)
+	begin
+      select @w_error = 1720818 
+      goto ERROR_FIN
+	end
+	
+	select 
+		'q_id'				=pr_id,
+		'codigo'			=pr_codigo,
+		'nombre'			=pr_nombre,
+		'precio'			=pr_precio,
+		'estado' 			=pr_estado,
+		'fechaCreacion'		=convert(varchar(10),pr_fecha_crea,111)
+	from grupod_producto where pr_codigo = @i_codigo
+	
+end
+----------------------------------------------------------------------------------------------------
+
+
+
+---------------------------Listar------------------------------------------------------------
+if @i_operacion = 'S'
+begin
+		
+	select 
+		'codigo'			=pr_codigo,
+		'nombre'			=pr_nombre,
+		'precio'			=pr_precio
+	from grupod_producto where pr_estado = 'V' 
+	
+end
+----------------------------------------------------------------------------------------------------
+
+
 return 0
 
 ERROR_FIN:
@@ -129,6 +185,8 @@ begin
 end
 return @w_error
 
-go
 
-select * from grupod_producto order by pr_id desc
+
+
+GO
+
